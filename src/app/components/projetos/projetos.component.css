@@ -1,0 +1,33 @@
+
+
+.section-2 {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+.section-2 .container-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 10px;
+    gap: 5px;
+ 
+}
+
+
+.section-2 .container-box .box-1{
+    width: 200px;
+    border: 1px solid red;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
