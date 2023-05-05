@@ -1,0 +1,39 @@
+
+
+
+
+.section-3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   background: #333;
+    height: 100vh;
+    border-top: 1px solid gray ;
+}
+
+.section-3 .container-box-3{
+    
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 .container-box-3 .box-3{
+    border: 1px solid gray;
+    height: 200px;
+    width: 250px;
+    margin: 10px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.section-3 .container-box-3 .box-3 i{
+    font-size: 50px;
+}
+
