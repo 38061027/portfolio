@@ -8,9 +8,25 @@
     justify-content: center;
     align-items: center;
    background: #333;
-    height: 100vh;
+  
     border-top: 1px solid gray ;
 }
+
+
+.section-3 .title{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 .title h1{
+  margin: 10px;
+  color: #eee;
+}
+
+
 
 .section-3 .container-box-3{
     
@@ -19,6 +35,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .section-3 .container-box-3 .box-3{
