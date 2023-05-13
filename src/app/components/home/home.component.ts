@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+
+  menuShow() {
+    let menuMobile = document.querySelector('.mobile-menu');
+
+    if (menuMobile?.classList.contains('open')) {
+      return menuMobile.classList.remove('open')
+    } else {
+      return menuMobile?.classList.add('open')
+    }
+  }
+
+
+
 }
