@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SharedServiceService } from 'src/app/shared-service.service';
 
 
 @Component({
@@ -10,4 +11,10 @@ import { Component } from '@angular/core';
 
 export class TecnologiasComponent {
 
+
+  constructor(private sharedService: SharedServiceService) {}
+
+  public funcaoCompartilhada(): void {
+    this.sharedService.menuShow();
+  }
 }

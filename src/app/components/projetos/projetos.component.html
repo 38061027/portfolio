@@ -1,17 +1,51 @@
 <main class="container">
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Portfólio</h1>
+            </div>
 
-<nav class="navigation">
-    <div class="container-nav">
-            <ul>
-                <li><a routerLink="">Home</a></li>
-                <li><a routerLink="/projetos">Projetos</a></li>
-                <li><a routerLink="/sobre">Sobre Mim</a></li>
-                <li><a routerLink="/tec">Tecnologias</a></li>
-                <li><a routerLink="/contato">Contato</a></li>
 
-            </ul>
-   </div>
-</nav>
+            <div class="nav-list">
+
+                <ul>
+                    <li><a routerLink="">Home</a></li>
+                    <li><a routerLink="/projetos">Projetos</a></li>
+                    <li><a routerLink="/sobre">Sobre Mim</a></li>
+                    <li><a routerLink="/tec">Tecnologias</a></li>
+                    <li><a routerLink="/contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="button-cv">
+                <button><a href="#">Baixar CV</a></button>
+            </div>
+            
+            
+            
+            
+            <div class="mobile-menu">
+                <ul>
+                    <li><a routerLink="">Home</a></li>
+                    <li><a routerLink="/projetos">Projetos</a></li>
+                    <li><a routerLink="/sobre">Sobre Mim</a></li>
+                    <li><a routerLink="/tec">Tecnologias</a></li>
+                    <li><a routerLink="/contato">Contato</a></li>
+                </ul>
+                
+                <div class="button-cv">
+                    <button><a href="#">Baixar CV</a></button>
+                </div>
+            </div>
+            
+                        <div class="menu-icon">
+                            <button (click)="funcaoCompartilhada()"><i class="material-symbols-outlined">menu</i></button>
+                        </div>
+
+        </nav>
+    </header>
+
+
 
  
     <section class="section-2">

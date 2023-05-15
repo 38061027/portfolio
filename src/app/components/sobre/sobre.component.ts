@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SharedServiceService } from 'src/app/shared-service.service';
 
 @Component({
   selector: 'app-sobre',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class SobreComponent {
 
+
+  constructor(private sharedService: SharedServiceService) {}
+
+  public funcaoCompartilhada(): void {
+    this.sharedService.menuShow();
+  }
 }

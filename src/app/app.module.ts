@@ -8,6 +8,9 @@ import { ProjetosComponent } from './components/projetos/projetos.component';
 import { SobreComponent } from './components/sobre/sobre.component';
 import { TecnologiasComponent } from './components/tecnologias/tecnologias.component';
 import { ContatoComponent } from './components/contato/contato.component';
+import { SharedServiceService } from './shared-service.service';
+
+
 
 @NgModule({
   declarations: [
@@ -16,13 +19,15 @@ import { ContatoComponent } from './components/contato/contato.component';
     ProjetosComponent,
     SobreComponent,
     TecnologiasComponent,
-    ContatoComponent
+    ContatoComponent,
+ 
+  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [SharedServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
