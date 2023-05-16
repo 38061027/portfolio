@@ -1,0 +1,85 @@
+
+
+
+.section-3 {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.title{
+   margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #eee;
+}
+
+.container-box-3{
+
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+     gap: 50px;
+       
+     
+}
+
+.box-3{
+    display: flex;
+    height: 100px;
+    width: 100px;
+
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-3 .fa-brands{
+    font-size: 45px;
+
+   
+ 
+}
+
+.box-3 .fa-brands:hover{
+    font-size: 55px;
+   transition: 0.5s;
+}
+
+
+.box-3 .fa-html5:hover{
+    color: rgb(201, 81, 34);
+    
+}
+
+.box-3 .fa-css3-alt:hover{
+    color: rgb(53, 100, 189);
+}
+.box-3 .fa-js:hover{
+    color: rgb(224, 222, 87);
+    
+}
+.box-3 .fa-angular:hover{
+    color: rgb(182, 31, 31);
+}
+.box-3 .fa-bootstrap:hover{
+    color: rgb(122, 58, 182);
+}
+.box-3 .fa-sass:hover{
+    color: rgb(199, 81, 169);
+}
+
+
+
+
+.container-box{
+    display: flex;
+    justify-content: center;
+}
+
+
