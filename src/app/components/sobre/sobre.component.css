@@ -1,0 +1,44 @@
+
+
+.container-sobre{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+    flex-wrap: wrap;
+    border-top: 1px solid gray ;
+  
+}
+
+.title{
+    margin-top: 20px;
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   color: #eee;
+}
+
+.section-4{
+    display: flex;
+    width: 50%;
+  text-align: center;
+
+}
+
+.section-4 p{
+    color: #eee;
+    padding: 10px;
+}
+
+
+
+@media screen and (max-width:530px) {
+
+    .container-sobre{
+        height: auto;
+    }
+}

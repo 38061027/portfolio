@@ -5,11 +5,18 @@
     box-sizing: border-box;
 }
 
+
+
 header {
     background-color: #333;
  
   }
   
+
+  .logo h1 a{
+    color: #eee;
+    font-weight: bolder;
+  }
   
   .nav-bar {
     display: flex;
@@ -43,6 +50,7 @@ header {
    margin: 10px;
    padding: 5px;
    border-radius: 10px ;
+   font-weight: bolder;
   }
 
   .nav-list ul li a:hover{
@@ -74,6 +82,11 @@ header {
   border: transparent;
   padding: 5px;
   border-radius: 4px;
+  }
+
+  .button-cv button a{
+    color: #000000;
+    font-weight: bolder;
   }
 
   
@@ -119,7 +132,10 @@ header {
       display: block;
       padding-top: 10px;
     }
-  
+    .mobile-menu ul li a{
+
+      color: #eee;
+    }
   
     .mobile-menu .button-cv {
       display: block;
