@@ -75,12 +75,6 @@ justify-content: center;
     align-items: center;
 }
 
-.section-2 .container-box .container-box-1 .box-1:hover{
-    height: 350px;
-    width: 260px;
-    transition: 1s;
-  
-}
 
 .section-2 .container-box .container-box-1 .box-1 button{
    font-size: 20px;
@@ -103,4 +97,45 @@ justify-content: center;
    width: 100%;
    color: #000000;
   
+}
+
+
+.github{
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+
+}
+
+
+
+.github h2{
+    color: #eee;
+}
+
+.github i{
+    font-size: 25px;
+}
+
+
+.github button{
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: transparent;
+   
+}
+
+.github button:hover{
+    font-size: 20px;
+    box-shadow: 10px 10px 10px #000000;
+    transition: 1s;
+}
+
+.github button a{
+    padding: 10px;
+    color: #000000;
 }
