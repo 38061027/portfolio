@@ -13,17 +13,24 @@ header {
   }
   
 
+ 
+
+
   .logo h1 a{
     color: #eee;
     font-weight: bolder;
+   
+  }
+
+  .logo h1 a .second{
+    color: #00ff7f;
   }
   
   .nav-bar {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    border-bottom: 1px solid #808080;
-    
+   
     
   }
   
@@ -49,14 +56,16 @@ header {
    color: #eee;
    margin: 10px;
    padding: 5px;
-   border-radius: 10px ;
+   
    font-weight: bolder;
   }
 
+  
+
   .nav-list ul li a:hover{
-    background-color: #000000;
-    color: #eee;
-    transition: 1s;
+   
+    color: #00ff7f;
+    transition: 0.5s;
   }
   
   
@@ -208,5 +217,7 @@ footer {
 
 
 }
+
+
 
  
