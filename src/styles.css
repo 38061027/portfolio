@@ -22,9 +22,11 @@ header {
    
   }
 
-  .logo h1 a .second{
+  .logo h1 a::after{
+    content: 'fólio';
     color: #00ff7f;
   }
+
   
   .nav-bar {
     display: flex;
