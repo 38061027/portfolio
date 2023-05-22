@@ -59,7 +59,7 @@ header {
    margin: 10px;
    padding: 5px;
    
-   font-weight: bolder;
+ 
   }
 
   
@@ -105,13 +105,34 @@ header {
   
   @media screen and (max-width: 800px) {
   
+
+
+
+      
+  .logo {
+    display: flex;
+    margin-left: 20px;
+    order: 2;
+    position: absolute;
+    
+  }
+  
   
   
     
   
     .nav-bar .nav-list {
       display: none;
+      
+
+      }
+
+    .nav-bar{
+      display: flex;
+      flex-direction: column;
+     
     }
+    
   
     .button-cv {
       display: none;
@@ -120,17 +141,27 @@ header {
   
   
     .menu-icon {
-      display: block;
+     display: flex;
+      order: 1;
+      justify-content: flex-end;
+     
     }
-  
-  
-    .menu-icon button {
+    
+    
+    
+    .menu-icon .btn-show {
+    
       background-color: transparent;
       cursor: pointer;
       border: none;
+    
     }
-  
-   
+
+    .menu-icon .btn-show i{
+      font-size: 30px;
+    }
+    
+    
   
     .mobile-menu ul {
       display: flex;
@@ -142,23 +173,30 @@ header {
     .mobile-menu ul li {
       display: block;
       padding-top: 10px;
+     
+    
     }
     .mobile-menu ul li a{
-
+     
       color: #eee;
     }
+
+    
   
     .mobile-menu .button-cv {
-      display: block;
+      display: flex;
       padding: 10px;
+      justify-content: center;
+      align-items: center;
     }
   
-    .mobile-menu .button-cv button {
-      width: 100%;
-    }
+    
   
     .open {
       display: block;
+      order: 3;
+      padding: 10px;
+      margin: 10px;
     }
   
   }

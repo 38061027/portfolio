@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SharedServiceService } from 'src/app/shared-service.service';
 
 @Component({
   selector: 'app-home',
@@ -7,17 +8,9 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  constructor(private sharedService: SharedServiceService) {}
 
-  menuShow() {
-    let menuMobile = document.querySelector('.mobile-menu');
-
-    if (menuMobile?.classList.contains('open')) {
-      return menuMobile.classList.remove('open')
-    } else {
-      return menuMobile?.classList.add('open')
-    }
+  public funcaoCompartilhada(): void {
+    this.sharedService.menuShow();
   }
-
-
-
 }
