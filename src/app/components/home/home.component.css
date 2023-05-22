@@ -5,7 +5,7 @@
 
 .section-1 {
   display: flex;
-  height: 600px;
+height: 600px;
  background-image: url(https://images.wallpaperscraft.com/image/single/code_letters_screen_137590_1920x1080.jpg);
   width: 100%;
   align-items: center;
@@ -75,10 +75,6 @@ section {
 
 
 @media screen and (max-width: 730px){
-
-  .section-1{
-    height: auto;
-  }
 
 
 
