@@ -8,9 +8,14 @@ import { SharedServiceService } from 'src/app/shared-service.service';
 })
 export class HomeComponent {
 
-  constructor(private sharedService: SharedServiceService) {}
+  constructor(private sharedService: SharedServiceService) {
 
-  public funcaoCompartilhada(): void {
-    this.sharedService.menuShow();
+
+    
   }
+
+   public funcaoCompartilhada(): void {
+     this.sharedService.menuShow();
+  }
+
 }

@@ -4,14 +4,18 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class SharedServiceService {
- public menuShow():void {
-    let menuMobile = document.querySelector('.mobile-menu');
+  public menuShow():void {
+     let menuMobile = document.querySelector('.mobile-menu');
+ 
+     if (menuMobile?.classList.contains('open')) {
+       return menuMobile.classList.remove('open')
+     } else {
+       return menuMobile?.classList.add('open')
+     }
+   }
+  constructor() { 
+    
+   
 
-    if (menuMobile?.classList.contains('open')) {
-      return menuMobile.classList.remove('open')
-    } else {
-      return menuMobile?.classList.add('open')
-    }
   }
-  constructor() { }
 }
