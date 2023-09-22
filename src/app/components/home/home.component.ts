@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { SharedServiceService } from 'src/app/shared-service.service';
 
 @Component({
@@ -8,14 +9,21 @@ import { SharedServiceService } from 'src/app/shared-service.service';
 })
 export class HomeComponent {
 
-  constructor(private sharedService: SharedServiceService) {
+
+  constructor(
+
+    private sharedService: SharedServiceService) {
 
 
-    
   }
+
+
 
    public funcaoCompartilhada(): void {
      this.sharedService.menuShow();
   }
+
+  
+
 
 }
