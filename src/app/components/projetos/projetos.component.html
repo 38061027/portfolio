@@ -1,5 +1,6 @@
 <main class="container">
-  
+
+
 
 
 
@@ -10,84 +11,31 @@
                 <h1>Projetos</h1>
             </div>
 
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item" *ngFor="let item of obj; let i = index" [class.active]="i === 0">
+
+<div class="test">
+
+                    <h1>{{item.name}}</h1>
+
+                    <div>
+                      <p></p>
+                    </div>
 
 
-           <div class="container-box">
-
-
-                         <!-- coluna 1 -->
-
-           <div class="container-box-1">
-
-               <div class="box-1">
-                   <span class="material-symbols-outlined">
-                       public
-                       </span>
-                   <h3>Web Site</h3>
-
-                   <button><a href="https://38061027.github.io/Web-site/" target="_blank">Ver mais</a></button>
-               </div>
-               <div class="box-1">
-                       <span class="material-symbols-outlined">
-                           fitness_center
-                           </span>
-                   <h3>Calculadora IMC</h3>
-
-                   <button><a href="https://38061027.github.io/calcular-imc/" target="_blank">Ver mais</a></button>
-               </div>
-               <div class="box-1">
-                   <span class="material-symbols-outlined">
-                       sunny
-                   </span>
-                   <h3>Weather App</h3>
-
-                   <button><a href="https://38061027.github.io/Weather-App/" target="_blank">Ver mais</a></button>
-               </div>
-           </div>
-
-
-
-           <div class="container-box-1">
-
-                <div class="box-1">
-                    <span class="material-symbols-outlined">
-                        wallpaper_slideshow
-                        </span>
-                    <h3>Galeria</h3>
-
-                    <button><a href="https://38061027.github.io/Galeria/" target="_blank">Ver mais</a></button>
+</div>
                 </div>
-                <div class="box-1">
-                    <span class="material-symbols-outlined">
-                        tv
-                        </span>
-                    <h3>Netflix Clone</h3>
-
-                    <button><a href="https://38061027.github.io/netflix-clone/" target="_blank">Ver mais</a></button>
-                </div>
-                <div class="box-1">
-                    <span class="material-symbols-outlined">
-                        calculate
-                        </span>
-                    <h3>Calculador De Notas</h3>
-
-                    <button><a href="https://38061027.github.io/calcular-notas/" target="_blank">Ver mais</a></button>
-                </div>
-
-
-
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
-
-            <div class="github">
-                <h2>Quer ver mais?</h2>
-                <h2>Acesse meu GitHub</h2>
-                <br>
-                <i class="fa-solid fa-arrow-down"></i>
-                <button><a href="https://github.com/38061027" target="_blank">Ver no GitHub</a></button>
-            </div>
-
-
-           </div>
 
 
 </div>
