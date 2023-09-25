@@ -9,6 +9,7 @@ import { SobreComponent } from './components/sobre/sobre.component';
 import { TecnologiasComponent } from './components/tecnologias/tecnologias.component';
 import { ContatoComponent } from './components/contato/contato.component';
 import { SharedServiceService } from './shared-service.service';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -20,12 +21,13 @@ import { SharedServiceService } from './shared-service.service';
     SobreComponent,
     TecnologiasComponent,
     ContatoComponent,
- 
-  
+
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [SharedServiceService],
   bootstrap: [AppComponent]
