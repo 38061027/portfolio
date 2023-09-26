@@ -1,12 +1,17 @@
 import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { SharedServiceService } from 'src/app/shared-service.service';
 
+
+
+
 @Component({
   selector: 'app-projetos',
   templateUrl: './projetos.component.html',
   styleUrls: ['./projetos.component.css'],
 })
 export class ProjetosComponent implements OnInit, AfterViewInit{
+
+
   @ViewChild('carouselExampleControls', { static: false }) carousel?: ElementRef;
 
   repository: any

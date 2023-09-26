@@ -1,21 +1,21 @@
 
 
 .container-sobre{
-    height: 600px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
-   
+
     flex-wrap: wrap;
     border-top: 1px solid gray ;
-  
+
 }
 
 .title{
     margin-top: 20px;
-   
+
     width: 100%;
     display: flex;
     justify-content: center;
