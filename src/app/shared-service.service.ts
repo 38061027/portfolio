@@ -32,6 +32,8 @@ export class SharedServiceService {
 
 
    getApiGitHub():Observable<any[]>{
+
+
     const headers = new HttpHeaders().set('Authorization', `${this.token}`);
     return this.http.get<any[]>(this.gitUrl,  { headers })
    }

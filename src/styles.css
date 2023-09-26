@@ -103,6 +103,22 @@ header {
 
 
 
+.button-cv-mobile button{
+
+  background-color: #eee;
+  border: transparent;
+  padding: 5px;
+  border-radius: 4px;
+  }
+
+  .button-cv-mobile button a{
+    color: #000000;
+
+   margin: 0;
+  }
+
+
+
 
   @media screen and (max-width: 800px) {
 
