@@ -24,9 +24,10 @@
 
 .section-4{
     display: flex;
-    width: 50%;
-  text-align: center;
 
+text-align: center;
+justify-content: center;
+align-items: center;
 }
 
 .section-4 p{
