@@ -2,7 +2,7 @@
 
 
 .section-3 {
-    
+
     width: 100%;
     display: flex;
     justify-content: center;
@@ -26,10 +26,10 @@
     width: 100%;
     flex-direction: column;
      gap: 50px;
-  
+
      justify-content: center;
      align-items: center;
-     
+
      padding: 10px;
 }
 
@@ -38,18 +38,18 @@
     height: 100px;
     width: 100px;
 
-   
+
     align-items: center;
     justify-content: center;
-  
-   
+
+
 }
 
 .box-3 .fa-brands{
     font-size: 60px;
 
-   
- 
+
+
 }
 
 .box-3 .fa-brands:hover{
@@ -58,25 +58,25 @@
 }
 
 
-.box-3 .fa-html5:hover{
+.box-3 .fa-html5{
     color: rgb(201, 81, 34);
-    
+
 }
 
-.box-3 .fa-css3-alt:hover{
+.box-3 .fa-css3-alt{
     color: rgb(53, 100, 189);
 }
-.box-3 .fa-js:hover{
+.box-3 .fa-js{
     color: rgb(224, 222, 87);
-    
+
 }
-.box-3 .fa-angular:hover{
+.box-3 .fa-angular{
     color: rgb(182, 31, 31);
 }
-.box-3 .fa-bootstrap:hover{
+.box-3 .fa-bootstrap{
     color: rgb(122, 58, 182);
 }
-.box-3 .fa-sass:hover{
+.box-3 .fa-sass{
     color: rgb(199, 81, 169);
 }
 
