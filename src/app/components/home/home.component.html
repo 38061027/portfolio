@@ -1,78 +1,79 @@
 <main class="container">
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">
+        <h1><a routerLink="">Port</a></h1>
+      </div>
 
+      <div class="nav-list">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projeto">Projetos</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#tecnologias">Tecnologias</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
 
-    <header>
-        <nav class="nav-bar">
-            <div class="logo">
-                <h1><a routerLink="">Port</a></h1>
-            </div>
+      <div class="button-cv">
+        <button>
+          <a
+            href="assets/cv/curriculo.pdf"
+            type="button"
+            class="btn btn-outline-success"
+            >Ver currículo</a
+          >
+        </button>
+        <button>
+          <a
+            href="assets/cv/curriculo.pdf"
+            download
+            type="button"
+            class="btn btn-outline-success"
+            >Baixar currículo</a
+          >
+        </button>
+      </div>
 
+      <div class="mobile-menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projeto">Projetos</a></li>
+          <li><a href="#sobre">Sobre Mim</a></li>
+          <li><a href="#tecnologias">Tecnologias</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
 
+        <div class="button-cv-mobile">
+          <button><a href="assets/cv/curriculo.pdf" type="button" class="btn btn-outline-success">Ver currículo</a></button>
+          <button>
+            <a href="assets/cv/curriculo.pdf" download type="button" class="btn btn-outline-success">Baixar currículo</a>
+          </button>
+        </div>
+      </div>
 
-            <div class="nav-list">
+      <div class="menu-icon">
+        <button (click)="funcaoCompartilhada()" class="btn-show">
+          <i class="material-symbols-outlined">menu</i>
+        </button>
+      </div>
+    </nav>
+  </header>
 
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#projeto" >Projetos</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#tecnologias">Tecnologias</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </div>
+  <div class="section-1">
+    <section>
+      <img class="circulo" src="assets/foto.jpg" alt="" />
 
-            <div class="button-cv">
-                <button><a href="assets/cv/curriculo.pdf">Ver currículo</a></button>
-                <button><a href="assets/cv/curriculo.pdf" download>Baixar currículo</a></button>
-            </div>
-
-
-
-
-
-            <div class="mobile-menu">
-                <ul>
-                  <li><a href="#home">Home</a></li>
-                  <li><a href="#projeto" >Projetos</a></li>
-                  <li><a href="#sobre">Sobre Mim</a></li>
-                  <li><a href="#tecnologias">Tecnologias</a></li>
-                  <li><a href="#contato">Contato</a></li>
-                </ul>
-
-                <div class="button-cv-mobile">
-                  <button><a href="assets/cv/curriculo.pdf">Ver currículo</a></button>
-                  <button><a href="assets/cv/curriculo.pdf" download>Baixar currículo</a></button>
-                </div>
-            </div>
-
-            <div class="menu-icon">
-                <button (click)="funcaoCompartilhada()" class="btn-show"><i class="material-symbols-outlined">menu</i></button>
-            </div>
-        </nav>
-    </header>
-
-
-
-
-
-
-    <div class="section-1">
-        <section>
-
-
-
-              <img class="circulo" src="assets/foto.jpg" alt="">
-
-
-            <div class="texto">
-                <h1>Olá, meu nome é José Augusto</h1>
-                <h4>Sou um desenvolvedor front-end apaixonado por tecnologia e com habilidades em Angular, JavaScript, CSS3 e HTML5. Embora não tenha experiência profissional, tenho trabalhado em projetos pessoais e acadêmicos para aprimorar minhas habilidades e conhecimentos em programação.</h4>
-            </div>
-
-        </section>
-    </div>
-
-
-
-
+      <div class="texto">
+        <h1>Olá, meu nome é José Augusto</h1>
+        <h4>
+          Sou um desenvolvedor front-end apaixonado por tecnologia e com
+          habilidades em Angular, JavaScript, CSS3 e HTML5. Embora não tenha
+          experiência profissional, tenho trabalhado em projetos pessoais e
+          acadêmicos para aprimorar minhas habilidades e conhecimentos em
+          programação.
+        </h4>
+      </div>
+    </section>
+  </div>
 </main>
-

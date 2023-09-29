@@ -96,14 +96,14 @@ header {
 
 .button-cv button{
 
-  background-color: #eee;
+  background-color: #000000;
   border: transparent;
   padding: 5px;
   border-radius: 4px;
   }
 
   .button-cv button a{
-    color: #000000;
+    color: #ffffff;
 
    margin: 0;
   }
@@ -112,14 +112,14 @@ header {
 
 .button-cv-mobile button{
 
-  background-color: #eee;
+  background-color: #000000;
   border: transparent;
   padding: 5px;
   border-radius: 4px;
   }
 
   .button-cv-mobile button a{
-    color: #000000;
+    color: #ffffff;
 
    margin: 0;
   }
@@ -235,12 +235,16 @@ a{
 
 body{
     background-color:#000000;
+
+
 }
 
 main{
     display: flex;
     width: 100%;
     flex-direction: column;
+
+
 }
 
 li{
