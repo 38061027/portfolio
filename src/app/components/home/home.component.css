@@ -120,6 +120,12 @@ justify-content: center;
     display: none;
   }
 
+ .mobile-menu li{
+    border-bottom: 1px solid white;
 
+    
+  }
+
+ 
 
 }
