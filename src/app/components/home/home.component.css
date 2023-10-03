@@ -1,13 +1,21 @@
 
 
 .container{
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #00ff7f;
   height: 100vh;
   display: flex;
 
 
 }
 
+.btn:hover{
+  background-color: #00ff7f ;
+}
+
+ .btn:hover{
+  color: #333;
+  font-weight: 800;
+}
 
 
 
@@ -123,9 +131,9 @@ justify-content: center;
  .mobile-menu li{
     border-bottom: 1px solid white;
 
-    
+
   }
 
- 
+
 
 }

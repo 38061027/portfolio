@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SobreComponent } from './sobre.component';
+import { HttpClientModule } from '@angular/common/http';
 
 describe('SobreComponent', () => {
   let component: SobreComponent;
@@ -8,6 +9,7 @@ describe('SobreComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+      imports: [HttpClientModule],
       declarations: [ SobreComponent ]
     })
     .compileComponents();

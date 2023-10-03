@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Skills } from 'src/app/models/skills.model';
 import { SharedServiceService } from 'src/app/shared-service.service';
 
 
@@ -11,13 +12,15 @@ import { SharedServiceService } from 'src/app/shared-service.service';
 
 export class TecnologiasComponent {
 
-    tecnogias: any[] = [
+    tecnogias: Skills[] = [
   {name: 'HTML', class: 'fa-brands fa-html5'},
   {name: 'CSS', class: 'fa-brands fa-css3-alt'},
   {name: 'JavaScript', class: 'fa-brands fa-js'},
   {name: 'Angular', class: 'fa-brands fa-angular'},
   {name: 'Bootstrap', class: 'fa-brands fa-bootstrap'},
   {name: 'SASS', class: 'fa-brands fa-sass'},
+  {name: 'Git', class: 'fa-brands fa-git-alt'},
+  {name: 'Github', class: 'fa-brands fa-github'},
   ]
 
   constructor(private sharedService: SharedServiceService) {}
@@ -25,6 +28,5 @@ export class TecnologiasComponent {
   public funcaoCompartilhada(): void {
     this.sharedService.menuShow();
   }
-
 
 }
