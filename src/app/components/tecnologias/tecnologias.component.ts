@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Skills } from 'src/app/models/skills.model';
-import { SharedServiceService } from 'src/app/shared-service.service';
+
 
 
 @Component({
@@ -23,10 +23,7 @@ export class TecnologiasComponent {
   {name: 'Github', class: 'fa-brands fa-github'},
   ]
 
-  constructor(private sharedService: SharedServiceService) {}
+  constructor() {}
 
-  public funcaoCompartilhada(): void {
-    this.sharedService.menuShow();
-  }
 
 }

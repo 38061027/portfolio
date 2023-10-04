@@ -8,9 +8,7 @@ import { SharedServiceService } from 'src/app/shared-service.service';
 })
 export class ContatoComponent {
 
-  constructor(private sharedService: SharedServiceService) {}
+  constructor() {}
 
-  public funcaoCompartilhada(): void {
-    this.sharedService.menuShow();
-  }
+
 }

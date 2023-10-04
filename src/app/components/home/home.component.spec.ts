@@ -22,4 +22,15 @@ describe('HomeComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('Deve abrir o menu-mobile', ()=>{
+
+    let spyComponent = spyOn(component, 'funcaoCompartilhada').and.callThrough()
+
+    component.funcaoCompartilhada()
+    expect(spyComponent).toHaveBeenCalledTimes(1)
+
+  })
+
+
 });

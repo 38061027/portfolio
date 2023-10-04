@@ -9,9 +9,7 @@ import { SharedServiceService } from 'src/app/shared-service.service';
 export class SobreComponent {
 
 
-  constructor(private sharedService: SharedServiceService) {}
+  constructor() {}
 
-  public funcaoCompartilhada(): void {
-    this.sharedService.menuShow();
-  }
+
 }
